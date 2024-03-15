@@ -1,0 +1,95 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    background-image: url("./images/1x/backgroud-body.png")
+}
+
+
+#top-bar{
+    background-color: #4577B6;
+    text-align: center;
+    padding: 15px;
+}
+
+
+h1 {
+    margin: 50px 50px 50px 50px;
+    font-size: 50px;
+    background-color: white;
+    width: 750px;
+}
+
+.cookie-image {
+    background: url("./images/cookies-image.jpg");
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+}
+
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+
+ol,
+ul {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+li{
+    margin-top: 14px;
+}
+
+.botao-compra {
+    width: 200px;
+    margin-top: 20px;
+    background-color: #4577B6;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.ingredients{
+    cursor: url("./images/cookiecursor.png"), default;
+}
+
+.instructions{
+    cursor: url("./images/cookiecursor.png"), default;
+}
+
+.cartao {
+    border-radius: 20px;
+    padding: 70px 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.cartao:hover {
+box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.50);
+}
+
+.footer{
+    background-color: #4577B6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-text{
+    max-width: 650px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
